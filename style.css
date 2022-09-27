@@ -144,6 +144,7 @@ body {
         -ms-flex-direction: column;
             flex-direction: column;
     margin-top: 5rem;
+    margin-bottom: 1rem;
 }
 
 .feature-box-3 button {
