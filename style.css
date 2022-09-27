@@ -162,10 +162,9 @@ body {
     .feature-box-3 button img{
        height: 75px;
        object-fit: cover !important;
-
-       -webkit-border-radius: 10px;
--moz-border-radius: 10px;
-border-radius: 10px;
+       border-radius: 10px;
+        -webkit-border-radius: 10px;
+          -moz-border-radius: 10px;
     }
 }
 
