@@ -86,6 +86,12 @@ body {
         /* flex-direction: column; */
         /* justify-content: flex-start !important; */
     }
+
+    .social-link-model img {
+        height: 5rem !important;
+        width: 5rem !important;
+        object-fit: cover;
+    }
 }
 
 .btn-close-model {
