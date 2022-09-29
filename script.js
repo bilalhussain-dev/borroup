@@ -61,9 +61,13 @@
         // Clipboard after click
         const copyText = 'https://apps.apple.com/us/app/borroup/id1519642060?uo=4';
         document.querySelector('.copyURL').addEventListener('click', (event) => {
-            alert('Text copiied')
-            copyText.select();
-            document.execCommand('copy');
+            
+            const copyText = "https://apps.apple.com/us/app/borroup/id1519642060?uo=4";
+            navigator.clipboard.writeText(copyText).then(() => {
+                // Alert the user that the action took place.
+                // Nobody likes hidden stuff being done under the hood!
+                  alert("Copied to clipboard");
+            });
             event.preventDefault();
             return true;
         });
