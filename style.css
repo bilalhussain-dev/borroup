@@ -71,6 +71,36 @@ body {
     
 }
 
+.social-link-model a {
+    width: 5rem;
+    height: 5rem;
+    background-color: #eee;
+    border-radius: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.social-link-model .fa-facebook {
+    color: rgb(44, 44, 221);
+}
+
+.social-link-model .fa-twitter {
+    color: rgb(75, 190, 243);
+}
+
+.fa-envelope-o{
+    color: rgb(151, 54, 54);
+}
+
+.fa-clipboard {
+    color: #333;
+}
+.social-link-model i {
+    font-size: 2rem;
+}
+
 .model-content {
     display: flex;
     justify-content: center;
