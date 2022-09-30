@@ -97,6 +97,10 @@ body {
 .fa-clipboard {
     color: #333;
 }
+
+.fa-instagram{
+    color: rgb(235, 121, 15);
+}
 .social-link-model i {
     font-size: 2rem;
 }
